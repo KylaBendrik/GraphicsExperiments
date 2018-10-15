@@ -1,0 +1,22 @@
+{
+  "name": "graphicsexperiments",
+  "version": "1.0.0",
+  "description": "doing stuff with graphics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KylaBendrik/GraphicsExperiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KylaBendrik/GraphicsExperiments/issues"
+  },
+  "homepage": "https://github.com/KylaBendrik/GraphicsExperiments#readme",
+  "dependencies": {
+    "three": "^0.97.0"
+  }
+}
