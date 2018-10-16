@@ -13,7 +13,6 @@
         </style>
     </head>
     <body>
-        <canvas id="myCanvas"></canvas>
 
         <script src="node_modules/three/build/three.js"></script>
         <script src="node_modules/three/examples/js/loaders/GLTFLoader.js"></script>
@@ -41,7 +40,7 @@
                 controls.update();
 
                 //envmap
-                var path = 'monkey/textures/cube/enviroment1/';
+                var path = '/monkey/textures/cube/enviroment1/';
                 var format = '.jpg';
                 var envMap = new THREE.CubeTextureLoader().load( [
                     path + 'posx' + format, path + 'negx' + format,
